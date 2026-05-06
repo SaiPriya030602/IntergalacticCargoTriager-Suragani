@@ -47,7 +47,7 @@ function App() {
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>🚀 Intergalactic Cargo Triager</h1>
-      <p style={styles.subtitle}>Monitoring {cargo.length} active cargo shipments</p>
+
 
       <button
         onClick={handleSync}
@@ -83,7 +83,7 @@ function App() {
                 <td style={styles.td}>{item.id}</td>
                 <td style={styles.td}>
                   {item.destination.toLowerCase() === "earth"
-                    ? "🌍 " + item.destination + " (Pinned)"
+                    ? "🌍 " + item.destination + ""
                     : "📦 " + item.destination}
                 </td>
                 <td style={styles.td}>{item.weight_kg} kg</td>
