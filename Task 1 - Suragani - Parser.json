@@ -1,0 +1,52 @@
+[
+  {
+    "id": "CRG-001",
+    "weight_kg": 500,
+    "destination": "Mars Base Alpha"
+  },
+  {
+    "id": "CRG-003",
+    "weight_kg": 250,
+    "destination": "Titan Colony"
+  },
+  {
+    "id": "CRG-004",
+    "weight_kg": 80,
+    "destination": "Venus Floating Station"
+  },
+  {
+    "id": "CRG-006",
+    "weight_kg": 305,
+    "destination": "Europa Ice Drill"
+  },
+  {
+    "id": "CRG-007",
+    "weight_kg": 42,
+    "destination": "Asteroid Belt Hub"
+  },
+  {
+    "id": "CRG-008",
+    "weight_kg": 9999,
+    "destination": "Earth"
+  },
+  {
+    "id": "CRG-009",
+    "weight_kg": 150,
+    "destination": "Jupiter Orbital"
+  },
+  {
+    "id": "CRG-010",
+    "weight_kg": 8,
+    "destination": "Pluto Research Facility"
+  },
+  {
+    "id": "CRG-011",
+    "weight_kg": 600,
+    "destination": "Neptune Deep Space Relay"
+  },
+  {
+    "id": "CRG-012",
+    "weight_kg": 145,
+    "destination": "Sector-7 Command Center"
+  }
+]
