@@ -1,8 +1,17 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse, PlainTextResponse
+from fastapi.middleware.cors import CORSMiddleware
 import json
 
 app = FastAPI()
+
+# Add CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 with open("Task 1 - Suragani - Parser.json", "r") as f:
     cargo_data = json.load(f)
